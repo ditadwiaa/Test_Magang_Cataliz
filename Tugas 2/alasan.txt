@@ -1,0 +1,1 @@
+Menggunakan teknik menyimpan senderhana pada chace yang didalamnya menyimpan lattitude dan longtitude yang didapatkan dalam chace dalam hal ini  tidak perlu menggunakan layanan google maps lagi dengan data yang sama dengan begitu dapat menghemat biaya untuk mendapatkan layanan dari API google Maps yang berbayar.

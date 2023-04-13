@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CRUD User</h1>
+        <table id="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>No. Telp</th>
+                    <th>Alamat</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <form id="user-form" class="hidden">
+            <input type="hidden" id="user-id">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <label for="no_telp">No. Telp</label>
+            <input type="text" id="no_telp" required>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" required></textarea>
+            <div class="button-container">
+                <button id="save-button">Save</button>
+                <button id="cancel-button">Cancel</button>
+            </div>
+        </form>
+        <div class="button-container">
+            <button id="add-button">Add User</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
